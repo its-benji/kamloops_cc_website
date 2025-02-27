@@ -1,0 +1,47 @@
+.latestsermon {
+    background-color: #468189;
+    width: 100vw;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-size {
+    width: 500px; 
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text-format {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+@media (max-width: 768px) { /* Mobile Phone */
+    .latestsermon {
+        flex-direction: column;
+    }
+    .video-size {
+        width: 300px;
+        height: 200px;
+    }  
+}
+
+@media (max-width: 1024px) { /* Mobile Phone */
+    .latestsermon {
+        flex-direction: column;
+    }
+    .video-size {
+        width: 400px;
+        height: 260px;
+    }  
+}
+
