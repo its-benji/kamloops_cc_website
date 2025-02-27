@@ -5,8 +5,13 @@ import BasicText from "./BasicText";
 function LatestSermon() {
 
   return (
-    <div className='latestsermon'>  
-      <BasicText colour={"#F4E9CD"}/>
+    <div className='segment-band' style={{ backgroundColor: "#468189"}}>  
+      <BasicText 
+        colour={"#F4E9CD"}
+        heading={"Last Week's Teaching"}
+        text1={"Every Sunday we study the Bible verse by verse, chapter by chapter."}
+        text2={"Join us each Sunday at 10:30 am"}
+      />
       <YouTubeVideo link={"https://www.youtube.com/embed/sZcGUEjH2P8?si=emZvbKBWV75qfoCw"}/>
     </div>
   )

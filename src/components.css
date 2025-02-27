@@ -1,5 +1,4 @@
-.latestsermon {
-    background-color: #468189;
+.segment-band {
     width: 100vw;
     margin-top: 20px;
     display: flex;
@@ -20,28 +19,29 @@
     display: flex;
     flex-direction: column; 
     align-items: center; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
   }
 
-@media (max-width: 768px) { /* Mobile Phone */
-    .latestsermon {
-        flex-direction: column;
-    }
-    .video-size {
-        width: 300px;
-        height: 200px;
-    }  
-}
-
-@media (max-width: 1024px) { /* Mobile Phone */
-    .latestsermon {
+@media (max-width: 1024px) { /* Tablet */
+    .segment-band {
         flex-direction: column;
     }
     .video-size {
         width: 400px;
         height: 260px;
+    }  
+}
+
+@media (max-width: 768px) { /* Mobile Phone */
+    .segment-band {
+        flex-direction: column;
+    }
+    .video-size {
+        width: 300px;
+        height: 200px;
     }  
 }
 
