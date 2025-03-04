@@ -5,9 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function YouTubeVideo({link}) {
 
   return (
-    <div>
+    <div className="video-container">
       <iframe 
-        class="video-size"
+        className="video-size"
         src={link} 
         title="YouTube video" 
         allowFullScreen>

@@ -1,15 +1,18 @@
-import { useState } from 'react'
 import LatestSermon from './components/LatestSermon'
 import WeeklyTeaching from './components/WeeklyTeaching'
+import OurMissions from './components/OurMissions'
+import KamloopsImage from './components/KamloopsImage'
+import NavigationBar from './components/NavigationBar'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div style={{ backgroundColor: "#F4E9CD", minHeight: "100vh" }}>
+      {/* <NavigationBar /> */}
+      <KamloopsImage />
       <LatestSermon />
       <WeeklyTeaching />
-      <LatestSermon />
+      <OurMissions />
     </div>
   )
 }

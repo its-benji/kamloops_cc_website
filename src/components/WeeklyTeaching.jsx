@@ -5,7 +5,7 @@ import BasicText from "./BasicText";
 function WeeklyTeaching() {
 
   return (
-    <div className='segment-band' style={{ backgroundColor: "#77ACA2"}}>  
+    <div className='segment-band' style={{ backgroundColor: "#C2A580"}}>  
         <YouTubeVideo link={"https://www.youtube.com/embed/HwB4pKnCDEY?si=HnZa7m8yxxgHlrsz"}/>
         <BasicText 
             colour={"#F4E9CD"}

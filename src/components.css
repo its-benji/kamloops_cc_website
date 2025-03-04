@@ -25,6 +25,12 @@
     margin-right: 20px;
   }
 
+.video-container {
+    display: inline-block; /* Keeps the container size to the iframe */
+    border-radius: 10px; /* Optional: smooth corners */
+    overflow: hidden; /* Ensures rounded corners apply to the iframe */
+}
+
 @media (max-width: 1024px) { /* Tablet */
     .segment-band {
         flex-direction: column;
